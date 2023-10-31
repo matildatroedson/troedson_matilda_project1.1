@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal; 
+    /* font-size: 2em; -- helps to relate sizes back to the original size (16px)*/
+    font-size: 24px; 
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* END OF RESET */
+
+header,footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    height: 50px;
+    align-items: center; 
+}
+
+header {
+    border-bottom: 1px solid #ccc; 
+}
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+.wrapper {
+    max-width: 1200px; 
+
+}
+.logo {
+    font-weight: bold; 
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family:"'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+    
+}
+.navheader {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; 
+    font-size: 14px;
+}
+.title {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 36px; 
+    padding: 12px;
+    
+}
+/* 
+.rome {
+    width: 100%;
+    background-color: #ccc;
+}
+.barca {
+    
+    background-color: #ddd;
+}
+.stockholm {
+    background-color: #ccc;
+}
+.cinque {
+    background-color: #ddd;
+}
+.madrid {
+    background-color: #ccc;
+}
+.helsinki {
+    background-color: #ddd;
+} 
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-top {
+    display: flex;
+    justify-content: center;
+}
+
+.row-mid {
+    display: flex;
+    justify-content: center;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.navfooter {
+    width: 250px; 
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 14px;  
+}
+.design {
+    font-size: 20px;
+}
+
+/* this is the start of the Barcelona page -- can still edit stuff above to apply to all pages */
+
+.barca-text {
+    width: 500px;
+    padding: 12px;
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/rome.webp);
+    background-size: cover;
+    
+}
+
+.hero2 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/sagrada.webp);
+    background-size: cover;
+}
+
+.hero3 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/stockholm.webp);
+    background-size: cover;
+}
+
+.hero4 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/cinqueterre.webp);
+    background-size: cover;
+}
+
+.hero5 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/madrid.webp);
+    background-size: cover;
+}
+
+.hero6 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(images/helsinki.webp);
+    background-size: cover;
+}
+.card {
+    width: 500px;
+    margin: 12px;
+    background-color: #ddd;
+}
+
+/* SAGRADA FAMILIA DETAILS PAGE*/
+
+.sagrada-card {
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 20px;
+    width: 88%;
+    margin: 50px; 
+    border-radius: 24px;
+}
+
+.barca2 {
+    border-radius: 12px;
+}
+
+.sagrada-text {
+    margin: 0px 0px 0px 12px;
+}
+
+/* STARTING PAGE */
+
+.startpage {
+    height: 800px;
+    background-image: url(images/startphoto.webp);
+    background-position: center 0;
+}
+.startpage-text {
+    text-align: center;
+}
+.startH1 {
+    font-size: 35px;
+    padding: 50px 10px 10px 10px;
+}
+.explorebutton {
+    width: 250px;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    
+}
